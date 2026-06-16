@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-DomSyrnikovaWeb-0.1.0";
 const contentToCache = [
-    "Build/SyrBuild.loader.js",
-    "Build/SyrBuild.framework.js.br",
-    "Build/SyrBuild.data.br",
-    "Build/SyrBuild.wasm.br",
+    "Build/SyrnikovWeb.loader.js",
+    "Build/SyrnikovWeb.framework.js.unityweb",
+    "Build/SyrnikovWeb.data.unityweb",
+    "Build/SyrnikovWeb.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
