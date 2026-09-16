@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | DomSyrnikovaWeb</title>
+    <title>Unity Web Player | Dom</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=830 height=555 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=800 height=555 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">DomSyrnikovaWeb</div>
+        <div id="unity-build-title">Dom</div>
       </div>
     </div>
     <script>
@@ -55,12 +55,12 @@
       var loaderUrl = buildUrl + "/SyrnikovWeb.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/SyrnikovWeb.data.unityweb",
-        frameworkUrl: buildUrl + "/SyrnikovWeb.framework.js.unityweb",
-        codeUrl: buildUrl + "/SyrnikovWeb.wasm.unityweb",
+        dataUrl: buildUrl + "/SyrnikovWeb.data.br",
+        frameworkUrl: buildUrl + "/SyrnikovWeb.framework.js.br",
+        codeUrl: buildUrl + "/SyrnikovWeb.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "DomSyrnikovaWeb",
+        productName: "Dom",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
         // errorHandler: function(err, url, line) {
@@ -104,7 +104,7 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "830px";
+        canvas.style.width = "800px";
         canvas.style.height = "555px";
       }
 
